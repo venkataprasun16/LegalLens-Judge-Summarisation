@@ -1,0 +1,205 @@
+\n===== Training tagged =====
+
+
+pytorch_model.bin: 100%
+
+ 648M/648M [00:03<00:00, 316MB/s]
+
+generation_config.json: 100%
+
+ 168/168 [00:00<00:00, 19.2kB/s]
+
+trainable params: 884,736 || all params: 162,729,216 || trainable%: 0.5437
+
+
+model.safetensors: 100%
+
+ 648M/648M [00:02<00:00, 2.39GB/s]
+
+Map: 100%
+
+ 1079/1079 [00:47<00:00, 22.68 examples/s]
+
+Map: 100%
+
+ 120/120 [00:05<00:00, 22.28 examples/s]
+
+/tmp/ipykernel_50/195208066.py:64: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Seq2SeqTrainer.__init__`. Use `processing_class` instead.
+  trainer = Seq2SeqTrainer(model=model, args=args,
+/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+Input ids are automatically padded from 2960 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2960 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3096 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3096 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3104 to 4096 to be a multiple of `config.attention_window`: 1024
+
+
+ [204/204 1:09:38, Epoch 3/3]
+
+| **Epoch** | **Training Loss** | **Validation Loss** |
+| --------: | ----------------: | ------------------: |
+|         1 |          2.853100 |            2.593663 |
+|         2 |          2.626200 |            2.479851 |
+|         3 |          2.482500 |            2.467967 |
+
+
+
+Input ids are automatically padded from 3912 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2936 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3128 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3128 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3176 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3176 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3760 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3760 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3504 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3504 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3992 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3992 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2792 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2424 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2424 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3776 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3776 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3328 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3592 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3136 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3136 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3432 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2520 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3976 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2352 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2352 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3120 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3448 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3448 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2616 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2616 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3016 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3016 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2904 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2904 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3680 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3680 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3960 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3960 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3360 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3360 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3456 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3456 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2832 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2480 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2480 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4088 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3664 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3224 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3224 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3832 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3832 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4008 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2632 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3376 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3008 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3160 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3160 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3368 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3864 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3864 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3800 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2800 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3872 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3872 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3320 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3888 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4056 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4056 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3216 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3216 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3112 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3488 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3488 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 1872 to 2048 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 1872 to 2048 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3024 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2856 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3408 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3408 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3528 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3528 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4016 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4016 to 4096 to be a multiple of `config.attention_window`: 1024
+/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+Input ids are automatically padded from 2440 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2440 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3984 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2944 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3424 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3424 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2816 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3672 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3928 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3632 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2600 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2600 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3904 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3000 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4080 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3648 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3648 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2384 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3304 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3304 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3952 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2728 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2728 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3144 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3736 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3736 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2968 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3640 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2760 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3232 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3232 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3728 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3512 to 4096 to be a multiple of `config.attention_window`: 1024
+/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+Input ids are automatically padded from 3752 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3920 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3920 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3240 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3240 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 1864 to 2048 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 1864 to 2048 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3848 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3056 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3056 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3192 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3816 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3816 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3704 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3744 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3744 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 4064 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2504 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2504 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2768 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3032 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3352 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3352 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3296 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3296 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 1808 to 2048 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 1808 to 2048 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2656 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3936 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3936 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3480 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 3480 to 4096 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2160 to 3072 to be a multiple of `config.attention_window`: 1024
+Input ids are automatically padded from 2872 to 3072 to be a multiple of `config.attention_window`: 1024
+
+
+Saved adapter: /kaggle/working/led_tagged_1200/tagged/final
