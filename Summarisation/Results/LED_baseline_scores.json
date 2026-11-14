@@ -1,0 +1,11 @@
+{
+  "model": "LED-Baseline",
+  "metrics": {
+    "rouge1": 0.328,
+    "rouge2": 0.1664,
+    "rougeL": 0.192,
+    "bertscore_precision": 0.8608,
+    "bertscore_recall": 0.8303,
+    "bertscore_f1": 0.8451
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": "LED-Rhetorical",
+  "metrics": {
+    "rouge1": 0.400,
+    "rouge2": 0.206,
+    "rougeL": 0.200,
+    "bertscore_precision": 0.855,
+    "bertscore_recall": 0.8294,
+    "bertscore_f1": 0.842
+  }
+}
